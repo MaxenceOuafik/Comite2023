@@ -115,6 +115,8 @@ wave3_table_trans
 3. Obtenir une idée de la **prévalence** et des **interactions** entre les différentes variables composant la syndémie à travers un volet quantitatif
 
 #### Questions de recherche
+::::{.columns}
+:::{.column width="50%"}
 :::{.fragment .fade-in fragment-index=1}
 :::{.callout-tip}
 ## RQ1 : Quels sont les contours de la syndémie ?
@@ -125,7 +127,9 @@ wave3_table_trans
 - *RQ1e* : "Quelles sont les interactions statistiques que l'on retrouve entre les conditions syndémiques dans le public HSH belge francophone ?"
 :::
 :::
+:::
 
+:::{.column width="50%"}
 :::{.fragment .fade-in fragment-index=2}
 :::{.callout-tip}
 ## RQ2 : Comment la syndémie se développe-t-elle ?
@@ -134,7 +138,8 @@ wave3_table_trans
 - *RQ2c* : "Prenant en compte le rapport aux normes de masculinité et la socialisation genrée, quels sont les différences et points de convergence dans la syndémogenèse entre les HSH cisgenres et transgenres ?"
 :::
 :::
-
+:::
+::::
 #### Variables sélectionnées
 
 |Nom de la variable| Priorité T-HSH | Priorité C-HSH | Occurence dans la littérature|
