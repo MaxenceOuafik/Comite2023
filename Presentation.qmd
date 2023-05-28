@@ -1,5 +1,191 @@
 ---
 title: "Comité de thèse 2022-2023"
-format: revealjs
+subtitle: "Rapport d'avancement sur l'année écoulée et perspectives de fin de thèse"
+author: "Dr OUAFIK Maxence"
+institute: "Département de Médecine Générale - Soins primaires et santé"
+editor:
+  render-on-save: true
+format: 
+  revealjs:
+    title-slide-attributes:
+      data-background-image: "./images/background.jpg"
+    slide-level: 4
+    incremental: true
+    transition: slide
+    slide-number: c/t
+    toc: true
+    toc-depth: 2
+    toc-title: "Plan de la présentation"
+    reference-location: document
+    navigation-mode: linear
+    menu: true
+    chalkboard: true
+    multiplex: true
+    touch: true
+    hide-inactive-cursor: true
+    theme: [default, custom.scss]
+    mermaid:
+      theme: forest
 ---
+
+# Rétrospective de l'année écoulée 
+
+## Articles scientifiques
+Depuis le début de la thèse : 
+
+- 2 articles publiés
+- 1 article sous presse
+- 1 article en cours de rédaction
+- 1 protocole de recherche en cours
+
+### Scoping review 
+
+:::{.nonincremental}
+- Publié en août 2022 dans *Social Science & Medicine* (IF : **5.379**)
+:::
+![](images/Scoping%20review.png){fig-align="center"}
+
+### Hors-série revue Santé Publique
+
+:::{.nonincremental}
+- Premier numéro thématique dédié à la santé des minorités sexuelles et de genre dans une revue de santé publique en France
+- Publication prévue d'ici deux à trois semaines
+:::
+
+![](images/Revue%20sant%C3%A9%20publique.png){fig-align="center"}
+
+### Syndelphi
+#### Participants 
+- **17** experts ont répondu à notre questionnaire : **10** experts cisgenres et **7** experts transgenres
+- Leur ancienneté dans l'associatif allait de **1** à **20 ans** pour une ancienneté médiane de **3 ans**
+- **65%** des experts interrogés étaient sur le terrain au moins une fois par semaine et un tiers étaient sur le terrain quasi quotidiennement.
+- Les missions principales étaient *l'accueil* **(N = 13)** et la *socialisation* **(N = 12)**, suivies par la *santé communautaire* **(N = 7)**.
+- Certains experts avaient des missions additionnelles telles que la formation des professionnel·le·s à l'accueil des HSH, la réduction des risques, la sensibilisation vers le grand public, ou le logement des personnes LGBTQIA+ qui se retrouvent à la rue.
+
+### Déroulement
+- Première vague qualitative visant à faire émerger un maximum d'idées sur la santé mentale, physique, et le bien-être psychosocial (**10** C-HSH et **7** T-HSH)
+- Deuxième vague quantitative visant à sélectionner les idées les plus consensuelles parmi celles ayant émergé de la première vague et les variables de la scoping review (**8** C-HSH et **7** T-HSH)
+- Troisième vague quantitative visant à classer les variables retenues par ordre d'importance (**6** C-HSH et **7** T-HSH)
+
+### Résultats
+```{r Delphi}
+#| layout-ncol: 2
+#| label: tbl-delphi
+#| tbl-cap: 
+#|   - "Réponses des experts cisgenres"
+#|   - "Réponses des experts transgenres"
+
+load("./data/delphi_cis.RData")
+load("./data/delphi_trans.RData")
+library(flextable)
+wave3_table_cis
+wave3_table_trans
+```
+
+## Conférences
+### FERULiège
+:::{.nonincremental}
+- Participation à la demi-journée d'étude du FERULiège sur les déterminants sociaux de la santé
+:::
+
+![](images/FERULi%C3%A8ge.png){fig-align="center"}
+
+### European Conference LGBTI+ Health: Let's care!
+- Conférence européenne sur la santé des minorités sexuelles et de genre, à Bruxelles, du 25 au 28 octobre 2023
+- Organisée par Ex-Aequo, Tels Quels, et Genres Pluriels 
+- Participation au comité scientifique de pilotage de la conférence
+
+
+## Activités pédagogiques
+- Cours sur la santé des minorités sexuelles et de genre, à destination des assistant·e·s MS2 et MS3
+- Participation à la cellule TFE du DUMG
+- Tuteur de 3 TFE de médecine générale
+- Membre du jury d'un mémoire en santé publique
+
+# Perspectives de fin de thèse
+## Synmixed 
+- Première étude au monde s'intéressant conjointement à la santé des HSH cisgenres et transgenres à travers le prisme syndémique
+- Première étude européenne s'intéressant à la santé des HSH transgenres à travers le prisme syndémique
+- Étude mixte
+
+### Protocole de recherche
+#### Objectifs
+1. Étudier l'**émergence** (syndémogenèse) et le **maintien** d'une syndémie à travers une approche **développementale**, chez les HSH en Belgique francophone 
+2. Comparer les **parcours** et vécus entre les HSH, **cisgenres** et **transgenres**, en vue de saisir les différences et similitudes en fonction de la **socialisation primaire** dans l'émergence d'une syndémie. 
+3. Obtenir une idée de la **prévalence** et des **interactions** entre les différentes variables composant la syndémie à travers un volet quantitatif
+
+#### Questions de recherche
+:::{.fragment .fade-in fragment-index=1}
+:::{.callout-tip}
+## RQ1 : Quels sont les contours de la syndémie ?
+- *RQ1a* : "Existe-t-il une syndémie chez les HSH en Belgique francophone ?"
+- *RQ1b* : "Quelles sont les conditions faisant partie de cette syndémie ?"
+- *RQ1c* : "Ces conditions diffèrent-elles entre HSH cisgenres et transgenres ?"
+- *RQ1d* : "Quelle est la prévalence des conditions syndémiques dans le public HSH belge francophone ?"
+- *RQ1e* : "Quelles sont les interactions statistiques que l'on retrouve entre les conditions syndémiques dans le public HSH belge francophone ?"
+:::
+:::
+
+:::{.fragment .fade-in fragment-index=2}
+:::{.callout-tip}
+## RQ2 : Comment la syndémie se développe-t-elle ?
+- *RQ2a* : "Quelle est la syndémogenèse des HSH en Belgique francophone ?"
+- *RQ2b* : "Dans quelle mesure cette syndémogenèse est-elle influencée par les normes de masculinité et la socialisation genrée ?"
+- *RQ2c* : "Prenant en compte le rapport aux normes de masculinité et la socialisation genrée, quels sont les différences et points de convergence dans la syndémogenèse entre les HSH cisgenres et transgenres ?"
+:::
+:::
+
+#### Variables sélectionnées
+
+|Nom de la variable| Priorité T-HSH | Priorité C-HSH | Occurence dans la littérature|
+|----------------- |----------------|----------------|------------------------------|
+|Suicidalité       | ✅            | ❌             | 16                           |
+| Dépression       | ✅            | ✅             | 80                           |
+| Comportements sexuels à risque| ❌ |            ✅|15 (O = 60)                   |
+|Faible estime de soi|           ❌|✅              |4                             |
+|Solitude          |✅             |✅              |6                             |
+|Transphobie       |✅             |❌              |0                             |
+|Manque de soutien social|✅       |✅              |4                             |
+
+#### Versant quantitatif
+::::{.columns}
+
+:::{.column width="40%" .nonincremental}
+- Questionnaire en ligne
+- Recrutement via réseaux sociaux ainsi que campagne d'affichage ciblée
+  - Lieux de rencontre, de socialisation, et de consommation sexuelle
+  - Centre S, S clinic, plannings familiaux
+  - Associations LGBT
+- Méthode d'analyse : statistiques descriptives et **analyse en réseau**
+:::
+
+:::{.column width="60%"}
+![Borsboom D, Deserno MK, Rhemtulla M, Epskamp S, Fried EI, McNally RJ, et al. Network analysis of multivariate data in psychological science. Nat Rev Methods Primers. Déc. 2021;1(1):58.](images/Network%20analysis.png)
+:::
+
+::::
+
+#### Versant qualitatif
+- Collaboration avec Alix Fournier, sociologue ayant suivi le master de spécialisation en études de genre, pour la conduite des entretiens, la retranscription, et l'analyse des données
+- Recrutement à partir d'un sous-échantillon du versant quantitatif
+- Entretiens semi-dirigés avec **15** T-HSH et **15** C-HSH
+- Approche en récit de vie (*life story interview*)
+- Visera principalement à répondre à la **RQ2**
+
+## Rétroplanning 2023-2024
+::: {.nonincremental}
+- Juin 2023 : soumission au comité d'éthique
+- Juillet 2023 - décembre 2023 : collecte des données 
+  - Publication du questionnaire et lancement de la campagne d'affichage
+  - Conduite et retranscription des entretiens
+- Décembre 2023 - février 2024 : analyse des données
+- Mars 2024 : rédaction et soumission de l'article
+:::
+
+::: {.fragment .fade-in}
+:::{.callout-important} 
+## Objectif 
+Soutenir la thèse en 2024, idéalement durant le premier semestre
+:::
+:::
 
