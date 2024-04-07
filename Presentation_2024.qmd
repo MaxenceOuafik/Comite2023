@@ -1,0 +1,251 @@
+---
+title: "Comité de thèse 2023-2024"
+subtitle: "Rapport d'avancement sur l'année écoulée et perspectives de fin de thèse"
+author: "Dr Maxence Ouafik"
+institute: "Département de Médecine Générale - Soins primaires et santé"
+editor:
+  render-on-save: true
+format: 
+  revealjs:
+    title-slide-attributes:
+      data-background-image: "./images/background.jpg"
+    slide-level: 4
+    incremental: true
+    transition: slide
+    slide-number: c/t
+    toc: true
+    toc-depth: 2
+    toc-title: "Plan de la présentation"
+    reference-location: document
+    navigation-mode: linear
+    menu: true
+    chalkboard: true
+    multiplex: true
+    touch: true
+    hide-inactive-cursor: true
+    theme: [default, custom.scss]
+    mermaid:
+      theme: forest
+bibliography: ref.bib
+csl: vancouver.csl
+---
+
+# Rétrospective de l'année écoulée 
+
+## Retard
+Retard important accumulé dû à un ensemble de facteurs : 
+
+- La complexité du protocole de recherche
+- Des évènements personnels (surmenage, déménagement et achat immobilier)
+- Des changements professionnels (démission et ouverture d'un cabinet)
+
+## Situation actuelle
+
+- Protocole terminé en novembre 2023 et soumis au comité d'éthique
+- Version révisée soumise en mars 2024 
+- Collecte des données prévue dès approbation définitive (mai, idéalement)
+
+## Prix
+
+### Prix du Généraliste
+
+:::{.columns}
+::::{.column .nonincremental}
+- Décerné le 9 septembre 2023
+- Remis par la SSM-J^[Société Scientifique de Médecine Générale ; branche des jeunes généralistes]
+- Récompense pour le TFE de fin d'assistanat 
+::::
+
+::::{.column}
+![](./images/ssmj.jpg){width=450 fig-align="center"}
+::::
+:::
+
+
+### Prix Joëlle Defourny 
+
+:::{.columns}
+::::{.column .nonincremental}
+- Décerné le 19 octobre 2023
+- Prix spécifique du fond Léon Fredericq 
+- Montant de 4000€ pour les frais de fonctionnement de l'étude
+::::
+
+::::{.column}
+![](./images/defourny.jpg){width=450 fig-align="center"}
+::::
+:::
+## Conférences 
+### WONCA
+:::{.nonincremental}
+- Organisée par la WONCA^[Organisation mondiale des médecins généralistes] à Bruxelles
+- Présentation orale en anglais (format 1S5M)
+:::
+
+### Congrès Santé Publique
+:::{.nonincremental}
+- Organisée par la SFSP^[Société Française de Santé Publique] à Saint-Étienne
+- Présentation orale (15 minutes)
+- Co-présentation avec Alix Fournier
+:::
+
+# Perspectives actuelles et futures
+## L'étude SyNeRGy
+*Syndemic Network analysis Research with Grounded theory*
+
+### Rappels
+#### Importance
+- Première étude au monde s'intéressant conjointement à la santé des HSH cisgenres et transgenres à travers le prisme syndémique
+- Première étude européenne s'intéressant à la santé des HSH transgenres à travers le prisme syndémique
+- Étude mixte
+
+#### Objectifs
+1. Étudier l'**émergence** (syndémogenèse) et le **maintien** d'une syndémie à travers une approche **développementale**, chez les HSH en Belgique francophone 
+2. Comparer les **parcours** et vécus entre les HSH, **cisgenres** et **transgenres**, en vue de saisir les différences et similitudes en fonction de la **socialisation primaire** dans l'émergence d'une syndémie. 
+3. Obtenir une idée de la **prévalence** et des **interactions** entre les différentes variables composant la syndémie à travers un volet quantitatif
+
+### Une étude mixte pleinement intégrée
+
+:::{.columns}
+::::{.column .nonincremental}
+* 4 outils de collecte distincts avec deux niveaux de triangulation : 
+    + Le questionnaire quantitatif
+    + Les entretiens qualitatifs
+    + Le calendrier d'histoire de vie
+    + L'entretien de groupe théorique
+* Une intégration à 3 niveaux
+    + Dans l'élaboration des outils de collecte de données
+    + Dans le recrutement
+    + Dans l'analyse
+::::
+
+::::{.column}
+![](./images/mermaid.png){height=650}
+::::
+:::
+
+### Élaboration des outils de collecte des données
+
+#### Questionnaire quantitatif
+
+:::{.columns}
+::::{.column}
+##### Variables syndémiques
+- Suicidalité : traduction personnelle du SBQ-R [@osman2001suicidal]
+- Échelle maison pour les comportements sexuels à risque en fonction de FR identifiés [@workowski2021sexually]
+- Soutien social : *Multidimensional Scale of Perceived Social Support* (MSPSS) [@zimet1988multidimensional], traduite en français par Denils et al.[@denis2015evaluation]
+- Dépression : PHQ-8 [@kroenke2009phq8]
+- Solitude : ULS-8[@hays1987shortform], traduite en français par De Grâce et al.[@degrace1993echelle]
+- Estime de soi : *Rosenberg Self-Esteem Scale* [@rosenberg1965society], traduite par Vallieres et Valerand [@vallieres1990traduction]
+::::
+
+::::{.column}
+##### Variables démographiques
+* Âge et nationalité
+* Lieu de naissance, province de résidence actuelle et type d'habitat (urbain versus rural)
+* Niveau de diplôme le plus élevé obtenu, emploi, profession actuelle, revenus, profession des parents
+* Sexe assigné à la naissance et identité de genre
+* Orientation sexuelle (auto-identification et comportements).
+::::
+
+:::
+
+:::{.callout-tip appearance="minimal"}
+Ce questionnaire représente l'outil principal pour répondre à la *RQ1* (Quels sont les contours de la syndémie ?)
+:::
+
+:::{.notes}
+- SBR  rapide (4 items) et fiable (93% de sensibilité et 95% de spécificité)  qui explore les idéations suicidaires et tentatives de suicide à vie, la fréquence des idéations dans les 12 derniers mois, la menace suicidaire et les risques de tentative de suicide futurs
+-  Risques : l'absence de dépistage, l'usage du TPE, les rapports sexuels non protégés (définis comme sans PrEP, préservatif ni TasP), le chemsex, le sexe sous substance, y compris l’alcool, le multipartenariat, le recours au travail du sexe (comme client ou travailleur) et l'usage d'applications de rencontre.
+:::
+
+#### Guide d'entretien
+
+* Inspiré du modèle de syndémogenèse de Stall [@stall2007interacting] et du Delphi. 
+* Formulations inspirées du questionnaire quantitatif
+* Comprend deux grandes catégories de domaines :
+    + Domaines de vie : contexte familial, lieux de vie, contexte scolaire, contexte professionnel, parcours sexuel, transition, contexte communautaire
+    + Domaines syndémiques : idem que pour le questionnaire quantitatif + exploration de la syndémie
+
+
+:::{.callout-tip appearance="minimal"}
+Les domaines de vie permettront principalement de répondre à la *RQ2* (Comment la syndémie se développe-t-elle ?) 
+Les domaines syndémiques, quant à eux, contribueront de surcroît à répondre à *RQ1*, et plus spécifiquement à *RQ1e* (Quelles sont les interactions que l'on retrouve entre les conditions syndémiques dans le public HSH belge francophone ?).
+:::
+
+
+#### Calendrier d'histoire de vie {#sec-calendrier}
+
+- Document séparé amalgamant les différents évènements de vie sous la forme d'un large tableau[@freedman1988life]
+- Favorise le rappel et l'analyse séquentielle des évènements
+
+
+### Recrutement
+#### Méthodes de recrutement
+
+```{r}
+#| label: Données des lieux de recrutement
+#| echo: false
+#| warning: false
+source("./recrutement.R")
+total_centres <- nrow(liste_centres)
+```
+
+:::{.nonincremental}
+- Échantillonnage de convenance : réseaux sociaux, mailing lists, affiches et flyers
+- **`{r} total_centres`** lieux identifiés pour le recrutement physique (voir @fig-recrutement)
+- Recrutement qualitatif via le questionnaire (≥ 2 échelles positives)
+:::
+
+```{r}
+#| label: fig-recrutement
+#| fig-cap: Lieux de recrutement identifiés, par types de lieux
+
+recrutement_plot
+```
+
+#### Critères d'inclusion
+* Pour le quantitatif :
+    +  Être un homme, cisgenre ou transgenre, ayant des relations sexuelles avec d'autres hommes, cisgenre ou transgenres
+    + Vivre en Belgique francophone
+    + Parler français
+    + Être âgé d'au moins 18 ans au moment de compléter le questionnaire
+
+* Pour le qualitatif :
+    + Avoir atteint le cutoff pour au moins **2** échelles du questionnaire quantitatif
+
+### Analyse des données
+#### Analyse quantitative
+
+::::{.columns}
+:::{.column .nonincremental}
+* Analyse de puissance via la méthode de Mihai Constantin [@constantin2023general]  : 246-443 participants nécessaires pour une puissance de 80% et une sensibilité de 0.6
+* Estimateur sélectionné : modèle graphique mixte avec sélection de modèle par critère d'information bayésien étendu [@isvoranu2021which] ; estimateur performant même à faible taille d'échantillon
+* Méthode de comparaison : technique de modèles de réseaux modérés avec modérateur catégoriel (méthode la plus sensible de comparaison de réseau)[@haslbeck2022estimating]
+:::
+
+:::{.column}
+![Borsboom D, Deserno MK, Rhemtulla M, Epskamp S, Fried EI, McNally RJ, et al. Network analysis of multivariate data in psychological science. Nat Rev Methods Primers. Déc. 2021;1(1):58.](images/Network%20analysis.png)
+:::
+::::
+
+#### Analyse qualitative
+* Approche en théorie ancrée : focalisation sur les processus sociaux et sociopsychologiques en vue d'élaborer une théorie intermédiaire ancrée dans les données[@thornberg2022designing]. 
+* Permet d'exploiter pleinement le modèle théorique de Stall[@stall2007interacting]
+* Répond à l'emploi d'une méthode de calendrier d'histoire de vie durant la conduite des entretiens 
+* Approche constructiviste : co-construction des données et de la théorie par les chercheurs et les participants[@thornberg2022designing]
+* Méthode de comparaison constante pour l'ensemble des données (qualitatives et quantitatives)
+
+
+### Transdisciplinarité et implication du public
+* Perspective transdiciplinaire selon la conception de Choi et Park (intégration des sciences naturelles, sociales et de santé)[@choi2006multidisciplinarity]
+* Répond aussi à la vision de Jahn et al.[@jahn2012transdisciplinarity] : mise en lien du sociétal et du scientifique et participation d'acteurs extrascientifiques
+
+
+### Précautions éthiques particulières
+* Contexte historique de violence épistémique nécessitant de s'engager dans une éthique de la réciprocité[@chamberlain2022challenges] : 
+    + Co-construction des variables de la question de recherche avec des informateurs clés issus du domaine associatif
+    + Perspective constructiviste du composant qualitatif. 
+* Importance que les fruits de la recherche bénéficient aux participants : 
+    + Mise en lien des participants au qualitatif avec un psychologue pour une séance gratuite, en présenciel ou en vidéoconférence, selon leur localisation.
+    + Rétribution épistémique : permettre le retour de l'information aux communautés qui ont permis sa construction
